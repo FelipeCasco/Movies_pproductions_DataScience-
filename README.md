@@ -11,15 +11,14 @@ Sistema de previsão de notas do IMDB baseado em características de filmes e da
 - pip ou conda
 
 ### Instalação com pip
-```bash
+{```bash
 git clone https://github.com/seu-usuario/imdb-rating-prediction.git
 cd imdb-rating-prediction
-pip install -r requirements.txt
-
+pip install -r requirements.txt}
 
 ### Instalação com conda
-conda env create -f environment.yml
-conda activate imdb-prediction
+{conda env create -f environment.yml
+conda activate imdb-prediction}
 
 📊 Estrutura de Dados
 Coloque o arquivo desafio_indicium_imdb.xlsx na pasta data/raw/
