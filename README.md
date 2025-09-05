@@ -30,8 +30,8 @@ Para o filme 'The Shawshank Redemption', o modelo previu uma nota de: **78.13**
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/imdb-rating-prediction.git
-cd imdb-rating-prediction
+git clone https://github.com/FelipeCasco/Movies_pproductions_DataScience-.git
+cd imdb_model_complete.pkl
 ```
 
 2. Instale as dependências:
@@ -61,7 +61,7 @@ imdb-rating-prediction/
 ├── LH_CD_FelipeCasco.ipynb                                     # Notebook principal com toda a análise
 ├── requirements.txt                                            # Dependências do projeto
 ├── imdb_model_complete.pkl                                     # Modelo treinado (Gradient Boosting)
-├── Relatório das análises estatísticas-FelipeCasco.pdf         # Relatório de análise exploratória
+├── Relatório das análises estatísticas-Felipe Casco.pdf        # Relatório de análise exploratória
 └── README.md                                                   # Este arquivo
 ```
 
@@ -98,6 +98,6 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 Felipe Casco - [feliperochacasco@yahoo.com.br]
 
-Link do Projeto: [https://github.com/seu-usuario/imdb-rating-prediction](https://github.com/seu-usuario/imdb-rating-prediction)
+Link do Projeto: [https://github.com/FelipeCasco/Movies_pproductions_DataScience-](https://github.com/FelipeCasco/Movies_pproductions_DataScience-)
 
 
