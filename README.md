@@ -11,15 +11,18 @@ Sistema de previsão de notas do IMDB baseado em características de filmes e da
 - pip ou conda
 
 ### Instalação com pip
-{```bash}
+```
+bash
 git clone https://github.com/seu-usuario/imdb-rating-prediction.git
 cd imdb-rating-prediction
 pip install -r requirements.txt
+```
 
 ### Instalação com conda
-```bash
+```
 conda env create -f environment.yml
 conda activate imdb-prediction
+```
 
 📊 Estrutura de Dados
 Coloque o arquivo desafio_indicium_imdb.xlsx na pasta data/raw/
@@ -36,6 +39,7 @@ python
 from src.model_training import predict_rating
 
 # Exemplo de uso
+```
 prediction = predict_rating({
     'Runtime': 120,
     'Meta_score': 80,
@@ -44,6 +48,7 @@ prediction = predict_rating({
     'Genre': 'Action, Sci-Fi'
 })
 print(f"Nota prevista: {prediction}")
+```
 
 📈 Resultados
 RMSE: 0.45
