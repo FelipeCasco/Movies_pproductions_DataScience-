@@ -16,6 +16,7 @@ git clone https://github.com/seu-usuario/imdb-rating-prediction.git
 cd imdb-rating-prediction
 pip install -r requirements.txt
 
+
 ### Instalação com conda
 conda env create -f environment.yml
 conda activate imdb-prediction
@@ -43,6 +44,7 @@ prediction = predict_rating({
     'Genre': 'Action, Sci-Fi'
 })
 print(f"Nota prevista: {prediction}")
+
 📈 Resultados
 RMSE: 0.45
 
