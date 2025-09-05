@@ -1,77 +1,107 @@
-# Movies_pproductions_DataScience-
-Desenvolvimento do estudo em Ciência de Dados denominado estúdio de Hollywood PProductions, com foco em resolução de problemas de negócios, análise de dados e aplicação de modelos preditivos.
+# Movies_pproductions_DataScience - Previsão de Notas IMDB
 
-# IMDB Rating Prediction
-Sistema de previsão de notas do IMDB baseado em características de filmes e dados externos.
+📋 Sobre o Projeto
 
-## 🚀 Instalação
+Este projeto tem como objetivo prever as notas do IMDB para filmes com base em suas características para o estúdio de Hollywood PProductions. Utilizamos técnicas de machine learning para criar um modelo preditivo que alcançou excelentes resultados. 
 
-### Pré-requisitos
-- Python 3.8+
-- pip ou conda
+O desenvolvimento deste projeto buscou aplicar os conhecimentos adiquiridos em Ciência de Dados para melhorar a resolução de problemas de negócios, análise de dados e aplicação de modelos preditivos.
 
-### Instalação com pip
+🎯 Resultados Obtidos
+Desempenho dos Modelos:
+Linear Regression: RMSE médio = 0.6084 (± 0.0533)
+
+Ridge Regression: RMSE médio = 0.6083 (± 0.0538)
+
+Random Forest: RMSE médio = 0.5830 (± 0.0762)
+
+Gradient Boosting: RMSE médio = 0.5722 (± 0.0708)
+
+Melhor modelo: Gradient Boosting
+
+Exemplo de Previsão:
+Para o filme 'The Shawshank Redemption', o modelo previu uma nota de: 78.13
+
+🚀 Como Executar o Projeto
+Pré-requisitos
+Python 3.7+
+
+Jupyter Notebook
+
+Git
+
+Instalação
+1.Clone o repositório:
+
 ```
 bash
 git clone https://github.com/seu-usuario/imdb-rating-prediction.git
 cd imdb-rating-prediction
+```
+2.Instale as dependências:
+```
+bash
 pip install -r requirements.txt
 ```
-
-### Instalação com conda
+3.Execute o Jupyter Notebook:
 ```
-conda env create -f environment.yml
-conda activate imdb-prediction
-```
-
-📊 Estrutura de Dados
-Coloque o arquivo desafio_indicium_imdb.xlsx na pasta data/raw/
-
-🏃‍♂️ Execução
-Análise Exploratória
 bash
-jupyter notebook notebooks/02_eda_analysis.ipynb
-Treinamento do Modelo
-bash
-python src/model_training.py
-Previsões
-python
-from src.model_training import predict_rating
-
-# Exemplo de uso
+jupyter notebook LH_CD_FelipeCasco.ipynb
 ```
-prediction = predict_rating({
-    'Runtime': 120,
-    'Meta_score': 80,
-    'Gross': 100000000,
-    'Director': 'Christopher Nolan',
-    'Genre': 'Action, Sci-Fi'
-})
-print(f"Nota prevista: {prediction}")
-```
+##Uso do Modelo
+No notebook, você pode:
 
-📈 Resultados
-RMSE: 0.45
+Executar todas as células para reproduzir toda a análise
 
-R²: 0.85
+Utilizar o modelo treinado para fazer previsões em novos dados
 
-MAE: 0.35
+Substituir os dados de exemplo por informações de outros filmes
 
-🛠️ Tecnologias
-Python 3.8
+Para fazer uma nova previsão, substitua os dados do filme na seção correspondente do notebook.
 
-Scikit-learn
+📊 ##Estrutura do Repositório
+imdb-rating-prediction/
+│
+├── LH_CD_FelipeCasco.ipynb          # Notebook principal com toda a análise
+├── requirements.txt                  # Dependências do projeto
+├── best_model.pkl                   # Modelo treinado (Gradient Boosting)
+├── eda_report.pdf                   # Relatório de análise exploratória
+└── README.md                        # Este arquivo
 
-Pandas
+📦 Dependências
+Consulte o arquivo requirements.txt para todas as dependências e versões específicas.
 
-NumPy
+🔍 Metodologia
+Análise Exploratória: Exploração dos dados e identificação de padrões
 
-Matplotlib
+Pré-processamento: Limpeza e transformação dos dados
 
-Seaborn
+Engenharia de Features: Criação de novas variáveis preditivas
 
-Jupyter
+Modelagem: Treinamento e avaliação de múltiplos algoritmos
 
-📝 Licença
-MIT License
+Seleção do Modelo: Escolha do melhor modelo baseado em performance
+
+📈 Resultados Detalhados
+O modelo Gradient Boosting foi selecionado como o melhor, alcançando um RMSE de 0.5722, o que indica uma alta precisão nas previsões das notas do IMDB.
+
+🤝 Contribuição
+Para contribuir com este projeto:
+
+Faça um fork do repositório
+
+Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
+
+Commit suas mudanças (git commit -m 'Add some AmazingFeature')
+
+Push para a branch (git push origin feature/AmazingFeature)
+
+Abra um Pull Request
+
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+📧 Contato
+Felipe Casco - [seu-email@dominio.com]
+
+Link do Projeto: https://github.com/seu-usuario/imdb-rating-prediction
 
