@@ -31,7 +31,7 @@ Para o filme 'The Shawshank Redemption', o modelo previu uma nota de: **78.13**
 1. Clone o repositório:
 ```bash
 git clone https://github.com/FelipeCasco/Movies_pproductions_DataScience-.git
-cd imdb_model_complete.pkl
+cd LH_CD_FelipeCasco.ipynb
 ```
 
 2. Instale as dependências:
@@ -58,9 +58,9 @@ Para fazer uma nova previsão, substitua os dados do filme na seção correspond
 ```
 imdb-rating-prediction/
 │
-├── LH_CD_FelipeCasco.ipynb                                     # Notebook principal com toda a análise
+├── LH_CD_FelipeCasco.ipynb                                     # Notebook principal com toda a análise e modelo (Gradient Boosting)
 ├── requirements.txt                                            # Dependências do projeto
-├── imdb_model_complete.pkl                                     # Modelo treinado (Gradient Boosting)
+├── imdb_model_complete.pkl                                     # Novo modelo treinado para filme fora da lista
 ├── Relatório das análises estatísticas-Felipe Casco.pdf        # Relatório de análise exploratória
 └── README.md                                                   # Este arquivo
 ```
@@ -85,9 +85,9 @@ O modelo Gradient Boosting foi selecionado como o melhor, alcançando um RMSE de
 
 Para contribuir com este projeto:
 1. Faça um fork do repositório
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
+2. Crie uma branch para sua feature (`git checkout -b`)
+3. Commit suas mudanças (`git commit -m 'Add Novas funções'`)
+4. Push para a branch (`git push origin`)
 5. Abra um Pull Request
 
 ## 📄 Licença
