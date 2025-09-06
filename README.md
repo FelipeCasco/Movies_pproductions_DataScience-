@@ -47,9 +47,10 @@ jupyter notebook LH_CD_FelipeCasco.ipynb
 ### Uso do Modelo
 
 No notebook, você pode:
-1. Executar todas as células para reproduzir toda a análise
-2. Utilizar o modelo treinado para fazer previsões em novos dados
-3. Substituir os dados de exemplo por informações de outros filmes
+1. Carregar o database desafio_indicium_imdb antes de executar a análise
+2. Executar todas as células para reproduzir toda a análise
+3. Utilizar o modelo treinado para fazer previsões em novos dados
+4. Substituir os dados de exemplo por informações de outros filmes
 
 Para fazer uma nova previsão, substitua os dados do filme na seção correspondente do notebook.
 
@@ -60,6 +61,7 @@ imdb-rating-prediction/
 │
 ├── LH_CD_FelipeCasco.ipynb                                     # Notebook principal com toda a análise e modelo (Gradient Boosting)
 ├── requirements.txt                                            # Dependências do projeto
+├── desafio_indicium_imdb.xlsx                                  # Database com todos as informações referentes aos filmes
 ├── imdb_model_complete.pkl                                     # Novo modelo treinado para filme fora da lista
 ├── Relatório das análises estatísticas-Felipe Casco.pdf        # Relatório de análise exploratória
 └── README.md                                                   # Este arquivo
